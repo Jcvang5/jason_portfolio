@@ -1,0 +1,55 @@
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+a {
+    font-size: 16px;
+    font-style: italic;
+}
+header {
+    border-style: solid; 
+    background-color: inherit; 
+    padding: 10px;
+}
+
+main {
+    background-color: inherit;
+    height: auto; /* Change height to auto to accommodate content */
+    min-height: 600px; /* Set a minimum height of 600px */
+    width: 70%;
+    margin: 15px;
+    padding: 10px;
+}
+    
+
+footer {
+    background-color: inherit; 
+    padding: 10px;
+    margin:50px;
+    padding:10px;
+}
+.job-title{
+    font-weight: bold;
+    color: maroon;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    transition: width 1s, height 1s; /* Add a transition for width and height */
+}
+
+img:hover {
+    width: 400px; /* Increase width on hover */
+    height: 400px; /* Increase height on hover */
+}
